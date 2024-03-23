@@ -1,4 +1,4 @@
-import { useSelector } from "react-redux";
+import { useSelector } from 'react-redux';
 
 const BagSummary = () => {
   const bagItemIds = useSelector((state) => state.bag);
@@ -20,7 +20,7 @@ const BagSummary = () => {
 
   let finalPayment = totalMRP - totalDiscount + CONVENIENCE_FEES;
 
-  return (
+  return totalItem ? (
     <div className="bag-summary">
       <div className="bag-details-container">
         <div className="price-header">PRICE DETAILS ({totalItem} Items) </div>
@@ -47,6 +47,13 @@ const BagSummary = () => {
       <button className="btn-place-order">
         <div className="css-xjhrni">PLACE ORDER</div>
       </button>
+    </div>
+  ) : (
+    <div className="empty_bag">
+      <h1>You have not selected any Item</h1>
+      <p>
+        To go to home page <a href="/">click here</a>
+      </p>
     </div>
   );
 };

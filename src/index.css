@@ -163,6 +163,7 @@ header {
 }
 .item-image {
   width: 100%;
+  height: 300px;
 }
 .rating {
   font-size: 12px;
@@ -273,7 +274,14 @@ a.action_container:link {
   font-size: 13px;
   line-height: 1.42857143;
 }
-
+.empty_bag {
+  align-items: center;
+  color: red;
+  /* border: 1px solid black; */
+  background-color: aqua;
+  border-radius: 10px;
+  padding: 10px 50px;
+}
 .bag-details-container {
   margin-bottom: 16px;
 }

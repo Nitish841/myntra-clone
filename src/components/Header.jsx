@@ -19,9 +19,9 @@ const Header = () => {
         </Link>
       </div>
       <nav className="nav_bar">
-        <a href="#">Men</a>
-        <a href="#">Women</a>
-        <a href="#">Kids</a>
+        <a href="/men">Men</a>
+        <a href="/women">Women</a>
+        <a href="/kids">Kids</a>
         <a href="#">Home & Living</a>
         <a href="#">Beauty</a>
         <a href="#">
