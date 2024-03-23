@@ -1,3 +1,5 @@
+import { Link } from 'react-router-dom';
+
 const Footer = () => {
   return (
     <footer>
@@ -5,37 +7,31 @@ const Footer = () => {
         <div className="footer_column">
           <h3>ONLINE SHOPPING</h3>
 
-          <a href="#">Men</a>
-          <a href="#">Women</a>
-          <a href="#">Kids</a>
-          <a href="#">Home & Living</a>
-          <a href="#">Beauty</a>
-          <a href="#">Gift Card</a>
-          <a href="#">Myntra Insider</a>
+          <Link to="/men">Men</Link>
+          <Link to="/women">Women</Link>
+          <Link to="/Kids">Kids</Link>
+          <Link to="#">Home & Living</Link>
+          <Link to="#">Beauty</Link>
         </div>
 
         <div className="footer_column">
           <h3>ONLINE SHOPPING</h3>
 
-          <a href="#">Men</a>
-          <a href="#">Women</a>
-          <a href="#">Kids</a>
-          <a href="#">Home & Living</a>
-          <a href="#">Beauty</a>
-          <a href="#">Gift Card</a>
-          <a href="#">Myntra Insider</a>
+          <Link to="/men">Men</Link>
+          <Link to="/women">Women</Link>
+          <Link to="/Kids">Kids</Link>
+          <Link to="#">Home & Living</Link>
+          <Link to="#">Beauty</Link>
         </div>
 
         <div className="footer_column">
           <h3>ONLINE SHOPPING</h3>
 
-          <a href="#">Men</a>
-          <a href="#">Women</a>
-          <a href="#">Kids</a>
-          <a href="#">Home & Living</a>
-          <a href="#">Beauty</a>
-          <a href="#">Gift Card</a>
-          <a href="#">Myntra Insider</a>
+          <Link to="/men">Men</Link>
+          <Link to="/women">Women</Link>
+          <Link to="/Kids">Kids</Link>
+          <Link to="#">Home & Living</Link>
+          <Link to="#">Beauty</Link>
         </div>
       </div>
       <hr />
